@@ -90,7 +90,7 @@ while True:
 
     if option == "1":
         # Allow the user to add items to the basket
-         basket.display_available_items()
+          available_items = basket.display_available_items()
         item_option = input("Enter the number of the item you want to add to your basket: ")
         if item_option in {"1", "2", "3"}:
              try:
